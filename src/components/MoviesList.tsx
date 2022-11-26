@@ -206,7 +206,7 @@ const removeFromFavourite = (movie : IMovie) =>
        { showMovieList && (
         <>
         <div>
-            <a onClick={() => backToHome()} style={{ textDecoration : 'none', color : 'blue', cursor: 'pointer', padding : '3rem'}} >Back to details</a></div>
+            <a onClick={() => backToHome()} style={{ textDecoration : 'none', color : 'blue', cursor: 'pointer', padding : '3rem'}} >Back to Home</a></div>
         <hr/>
           <Row xs={1} lg={2} key={ `${new Date().getTime()} ${movieDetails?.title}`} style={{paddingLeft : '2rem'}}>
                  <Col key={`${new Date().getTime()} ${movieDetails?.title}`} className="my-2 d-flex align-items-stretch" style={{width : '275px'}}>
